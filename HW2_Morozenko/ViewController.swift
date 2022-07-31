@@ -8,10 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var redLight: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        redLight.layer.cornerRadius = 20
     }
 
 
